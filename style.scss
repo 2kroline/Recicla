@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "poppins";
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+
+.logo img {
+  width: 36px;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 32px;
+  align-items: center;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.header-btns ul {
+  display: flex;
+}
+
+.header-btns ul li {
+  list-style: none;
+  padding: 10px 30px;
+}
+
+.header-btns a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+.header-btns a:hover {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #16a34a;
+  border: solid 1px #16a34a;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.btn-primary a {
+  color: white;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #21c05c;
+  color: black;
+  border: solid 1px #21c05c;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.line {
+  width: 95%;
+  height: 1px;
+  background: #ddd;
+  margin-top: 0.75rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#presentation {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#presentation .textos {
+  width: 66%;
+}
+#presentation .imagem-mascote {
+  width: 33%;
+}
+
+#presentation h1 {
+  font-size: 100px;
+  font-weight: 700;
+  font-style: bold;
+  width: 95%;
+  line-height: 120%;
+  margin: 30px 50px;
+}
+#presentation h4 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  width: 100%;
+  color: #4b5563;
+}
+
+#presentation img {
+  width: 100%;
+}
+
+#presentation h4 {
+  margin: 30px 50px;
+  font-size: 33px;
+  line-height: 120%;
+}
+
+#presentation .btn-primary {
+  margin: 30px 50px;
+  padding: 15px 40px;
+}
+
+#presentation .btn-primary a {
+  display: flex;
+  font-size: 22px;
+}
+#presentation .btn-primary img {
+  margin-left: 10px;
+  width: 24px;
+  color: white;
+}
+#presentation .btn-secundary {
+  background-color: white;
+  border: solid 1px #2563eb;
+  border-radius: 6px;
+  padding: 15px 40px;
+  font-size: 18px;
+  margin: 0px 0px;
+}
+#presentation .btn-secundary a {
+  color: #2563eb;
+  font-weight: 600;
+  display: flex;
+  font-size: 22px;
+}
+#presentation .btn-secundary img {
+  margin-left: 10px;
+  width: 24px;
+}
+#presentation .btn-secundary:hover {
+  background-color: #3b82f6;
+  color: white;
+  border: solid 1px #87b5ff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+#estatisticas {
+  background-color: #f3f5f8;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+#estatisticas ul {
+  list-style-type: none!important;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#estatisticas ul li {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+#estatisticas ul {
+  padding: 15px 0px;
+}
+
+#estatisticas ul li h1 {
+  font-size: 60px;
+  color: #16a34a;
+  font-family: "poppins";
+  font-weight: 700;
+  font-style: bold;
+  margin: 20px 0px;
+}
+
+#como-funciona {
+  margin: 100px 50px;
+}
+
+.titulo-padrao h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: bold;
+  margin-bottom: 35px;
+}
+.titulo-padrao p {
+  font-size: 24px;
+  color: #4b5563;
+  margin-bottom: 70px;
+}
+
+#como-funciona .passos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+#como-funciona .passos .passo {
+  background-color: #f3f5f8;
+  border-radius: 8px;
+  padding: 30px 20px;
+  width: 45%;
+}
+
+.green {
+  color: #16a34a;
+}
+
+#como-funciona .titulo {
+  display: flex;
+  font-family: "Inter";
+  margin: 10px 30px;
+  align-items: center;
+}
+
+#como-funciona .titulo h3 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: 15px;
+}
+
+#como-funciona p {
+  font-size: 20px;
+  line-height: 150%;
+  margin: 20px 30px;
+  color: #4b5563;
+}
+
+#como-funciona .passos .passo ul {
+  display: flex;
+}
+
+#como-funciona .passos .passo ul li .numeros {
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.background-green {
+  background-color: #16a34a;
+}
+.background-blue {
+  background-color: #2563eb;
+}
+#como-funciona .passos .passo ul li .textos p {
+  font-size: 18px;
+  margin: 15px 0px;
+}
+
+#disponiveis {
+  background-color: #f3f5f8;
+}
+
+#avaliacoes {
+  margin: 100px 0px;
+}
+
+.box-disponiveis {
+  margin: 100px 50px;
+  padding: 50px 0px;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+}
+.produto {
+  background-color: white;
+  width: 22%;
+  border-radius: 8px;
+  border: solid 2px #16a34a;
+}
+.produto img {
+  width: 100%;
+}
+.produto h3 {
+  font-size: 24px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.produto p {
+  font-size: 18px;
+  color: #4b5563;
+  text-align: center;
+  margin: 0px 15px 20px 15px;
+}
+
+.produto button {
+  background-color: #4B5563;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo-secundario h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: bold;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.titulo-secundario p {
+  text-align: center;
+  font-size: 24px;
+  color: #2563EB;
+  margin-bottom: 70px;
+}
+
+.depoimentos {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.depoimento {
+  border: solid 1px #9ca3af;
+  border-left: 4px solid #9ca3af;
+  border-radius: 8px;
+  padding: 30px 20px;
+  width: 30%;
+  margin: 0px 35px;
+}
+.depoimento img {
+  padding: 15px;
+}
+.depoimento h3 {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+.usuario {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+#fechamento {
+  background-color: #f3f5f8;
+  margin-top: 100px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.btn-fechar .btn-secundary {
+  background-color: white;
+  border: solid 1px #21c05c;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-fechar .btn-secundary:hover {
+  background-color: white;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.btn-fechar .btn-secundary a {
+  color: #21c05c;
+  font-weight: 600;
+}
+footer {
+  background-color: #1f2937;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  justify-content: space-around;
+  text-align: left;
+}
+
+footer ul {
+    padding-left: 16px!important;
+
+footer .footer-list 
+  margin: 50px 0px;
+  width: 20%;
+}
+
+footer h4 {
+  font-family: "poppins";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+footer ul {padding-left: 14px;}
+footer ul li {
+  list-style: none;
+  margin: 15px 0px;
+}
+.footer-lists {
+  display: flex;
+  justify-content: space-around;
+}
+footer p {
+  padding: 35px;
+  font-size: large;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+}
+.social-icons li {
+  padding: 0px 10px;
+}
+
+@media (max-width: 768px) {
+  header .logo {
+    font-size: 24px;
+    padding: 15px 35px;
+  }
+  header {
+    flex-direction: column;
+  }
+  header .header-btns ul li {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  header .btn-primary {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  #presentation {
+    flex-direction: column;
+    align-items: center;
+  }
+  #presentation .textos {
+    width: 100%;
+    text-align: center;
+  }
+  #presentation h1 {
+    width: 100%;
+    font-size: 35px;
+    margin: 20px 0px;
+  }
+  #presentation h4 {
+    font-size: 12px;
+    margin: 20px 0px;
+  }
+
+  #presentation .presentation-btns a {
+    font-size: 15px;
+    padding: 0;
+  }
+  #presentation .presentation-btns img {
+    width: 15px;
+  }
+
+  #presentation .presentation-btns .btn-primary {
+    margin: 20px 15px;
+    padding: 15px 20px;
+  }
+
+  #presentation .presentation-btns .btn-secundary {
+    margin: 0px 0px 20px 0px;
+    padding: 15px 20px;
+  }
+
+  #presentation .imagem-mascote {
+    width: 80%;
+    margin-top: 30px;
+  }
+  #estatisticas ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo-padrao h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .titulo-padrao p {
+    font-size: 18px;
+    text-align: center;
+  }
+  #como-funciona .passos {
+    flex-direction: column;
+    align-items: center;
+  }
+  #como-funciona .passos .passo {
+    width: 85%;
+    margin-bottom: 30px;
+  }
+  #como-funciona .titulo h3 {
+    font-size: 18px;
+  }
+  #como-funciona .titulo {
+    margin: 0;
+  }
+  #como-funciona p {
+    font-size: 16px;
+    margin: 15px 0px;
+  }
+  #como-funciona .passos .passo ul li .textos p {
+    font-size: 10px;
+  }
+  #disponiveis .produtos {
+    flex-direction: column;
+    align-items: center;
+  }
+  #disponiveis .produtos .produto {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  #avaliacoes .depoimentos {
+    flex-direction: column;
+    align-items: center;
+  }
+  #avaliacoes .depoimentos .depoimento {
+    width: 80%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  footer .footer-lists {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer p {
+    font-size: medium;
+  }
+  footer .footer-list {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
